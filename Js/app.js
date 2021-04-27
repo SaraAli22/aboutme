@@ -21,4 +21,4 @@ console.log(mydrink)
 let myhobby = prompt('Do I like Taking Picture ? yes or no ');
 alert('I love to Take Pictures')
 console.log(myhobby)
-aler (" Thanks for your time"+ username)
+alert (" Thanks for your time"+ username)
