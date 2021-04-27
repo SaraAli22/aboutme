@@ -2,22 +2,23 @@
 var username = prompt("Please Enter your name").toUpperCase();
 alert ("Welcome"+username);
 
-let myname = confirm('Is my name Sara ?');
+let myname = prompt('Is my name Sara ? yes or no ');
 alert('my name is Sara')
 console.log(myname)
 
-let myhome = confirm('do I live in Irbid ?');
+let myhome = prompt('do I live in Irbid ? yes or no');
 alert('I live in Irbid')
 console.log(myhome)
 
-let mymajor = confirm('Am I a doctor ?');
+let mymajor = prompt('Am I a doctor ? yes or no ');
 alert('I am A civil Engineer')
 console.log(mymajor)
 
-let mydrink = confirm('Is Tea my Favourite drink ?');
+let mydrink = prompt('Is Tea my Favourite drink ? yes or no');
 alert('my favourite drink is coffe')
 console.log(mydrink)
 
-let myhobby = confirm('Do I like Taking Picture ?');
+let myhobby = prompt('Do I like Taking Picture ? yes or no ');
 alert('I love to Take Pictures')
 console.log(myhobby)
+aler (" Thanks for your time"+ username)
