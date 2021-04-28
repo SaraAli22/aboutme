@@ -103,7 +103,7 @@ guessSum();
 function FavColor() {
     var myFavcolor = ['black', 'green', 'blue', 'white'];
 
-    for (var i = 0; i <7 ; i++) {
+    for (var i = 0; i <6 ; i++) {
         var useranswer = prompt('What is my favorite color?');
         var answer = useranswer.toLowerCase();
 
