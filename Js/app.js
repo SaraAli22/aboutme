@@ -5,6 +5,7 @@ var username = prompt("Please Enter your name").toUpperCase();
 alert ("Welcome"+username);
 alert('let\'s play a guessing game about me.');
 
+
 function yesCorrect (question) {
     if (question.toUpperCase() === 'YES') {
         score++;
@@ -31,26 +32,47 @@ function noCorrect (question) {
     }
 }
 
+function MYNAME(){
 let myname = prompt('Is my name Sara ? yes or no ');
 console.log(myname)
 yesCorrect(myname);
+return;}
 
+MYNAME();
+
+function MYHOME (){
 let myhome = prompt('do I live in Irbid ? yes or no');
 console.log(myhome)
-yesCorrect(myhome);
+yesCorrect(myhome); 
+return;}
 
-let mymajor = prompt('Am I a doctor ? yes or no ');
+MYHOME();
+
+
+function MYMAJOR(){
+    let mymajor = prompt('Iam I doctor ? yes or no'); 
 console.log(mymajor)
 noCorrect(mymajor);
+return;}
 
+MYMAJOR();
+
+
+function MYDRINK(){
 let mydrink = prompt('Is Tea my Favourite drink ? yes or no');
 console.log(mydrink)
 noCorrect(mydrink);
+return;}
 
+MYDRINK();
 
+function MYHOBBY(){
 let myhobby = prompt('Do I like Taking Picture ? yes or no ');
 console.log(myhobby)
 yesCorrect(myhobby);
+return;}
+
+MYHOBBY();
 
 
 function guessSum() {
