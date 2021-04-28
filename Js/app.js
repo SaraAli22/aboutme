@@ -44,7 +44,6 @@ console.log(mymajor)
 noCorrect(mymajor);
 
 let mydrink = prompt('Is Tea my Favourite drink ? yes or no');
-alert('my favourite drink is coffe')
 console.log(mydrink)
 noCorrect(mydrink);
 
@@ -54,18 +53,6 @@ console.log(myhobby)
 yesCorrect(myhobby);
 
 
-
-
-
-for (var i = 1; i <= 4; i++ ) 
-{
-    var userNum = Number(prompt('What is The sum of first five prime numbers ?'));
-if (userNum == 28 ) {
-    alert('Great That is Correct');
-} else  
-    alert ('Too close')
-
-}
 function guessSum() {
     var counter = 1;
     if (counter === 5) {
