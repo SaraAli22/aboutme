@@ -127,4 +127,4 @@ alert('My favorite colors are: black, green, blue, white');
 
 alert('Good Job!... You got ' + score + ' correct answers!');
 
-alert (" Thanks for your time"+ username)
+alert (" Thanks for your time"+ username);
